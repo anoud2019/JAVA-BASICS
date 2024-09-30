@@ -1,6 +1,6 @@
 import java.util.HashSet; // Import the HashSet class to store unique characters.
 
-public class firstRepeatedChar { // Define the class 'firstRepeatedChar'.
+public class RepeatedChar { // Define the class 'firstRepeatedChar'.
     
     public static void main(String[] args) { // Main method where the program starts.
         String input = "Alanoud said AlGhadani"; // Example string input.
