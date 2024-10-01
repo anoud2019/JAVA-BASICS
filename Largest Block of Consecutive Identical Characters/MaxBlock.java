@@ -1,11 +1,11 @@
 public class MaxBlock {
     public static void main(String[] args) {
-        System.out.println(maxBlok("hoopla"));
-        System.out.println(maxBlok("abbcccddBBBxx"));
-        System.out.println(maxBlok(""));
+        System.out.println(findMaxBlok("hoopla"));
+        System.out.println(findMaxBlok("abbcccddBBBxx"));
+        System.out.println(findMaxBlok(""));
 
     }
-    public static int maxBlok(String s) {
+    public static int findMaxBlok(String s) {
 
         int len = s.length();
         if (len==0)
