@@ -1,4 +1,4 @@
-public class concatenation {
+public class ConcatStrings {
     public static void main(String[] args) {
         System.out.println(minCat("Hello","He"));
         System.out.println(minCat("Name","Ali"));
