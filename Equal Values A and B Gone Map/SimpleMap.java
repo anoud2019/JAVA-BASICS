@@ -12,10 +12,8 @@ public class SimpleMap {
     }
 
     public static void equalValueMap(Map<String, String> map) {
-        // Check if both keys "a" and "b" exist in the map
-        if (map.containsKey("a") && map.containsKey("b")) {
-            // Check if the values associated with "a" and "b" are equal
-            if (map.get("a").equals(map.get("b"))) {
+        // Check if both keys "a" and "b" same value
+       if (map.containsKey("a") && map.containsKey("b") && map.get("a").equals(map.get("b")))
                 // Remove both keys from the map
                 map.remove("a");
                 map.remove("b");
