@@ -4,10 +4,10 @@ import java.util.Map;
 public class WordAppender {
     public static void main(String[] args) {
         String[] letters = {"a", "b", "c", "a", "s", "a", "a", "a", "a"};
-        wordAppend(letters);
+        appendWords(letters);
     }
 
-    public static void wordAppend(String[] strings) {
+    public static void appendWords(String[] strings) {
         Map<String, Integer> map = new HashMap<>();
         String result = "";
 
