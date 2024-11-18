@@ -37,4 +37,5 @@ public class MotionData {
     public void setBaseData(BaseData baseData) {
         this.baseData = baseData;
     }
+
 }
