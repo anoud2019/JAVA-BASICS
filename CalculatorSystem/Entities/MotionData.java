@@ -4,6 +4,7 @@ public class MotionData extends BaseData {
     private double initialVelocity;
     private double acceleration;
     private double time;
+    private Float distance;
 
 
     public double getInitialVelocity() {
@@ -30,5 +31,11 @@ public class MotionData extends BaseData {
         this.time = time;
     }
 
+    public Float getDistance() {
+        return distance;
+    }
 
+    public void setDistance(Float distance) {
+        this.distance = distance;
+    }
 }
