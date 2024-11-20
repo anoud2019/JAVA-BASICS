@@ -6,15 +6,11 @@ import Interfaces.CalculatorInterface;
 import java.util.Scanner;
 
 public class CompoundInterestCalculator implements CalculatorInterface {
-    private InterestData interestData;
-
-    public CompoundInterestCalculator(InterestData interestData) {
-        this.interestData = interestData;
-    }
 
     @Override
     public void calculate() {
         Scanner scanner = new Scanner(System.in);
+        InterestData interestData =new InterestData();
 
         System.out.println("Formula: (CI = P × (1 + R ÷ 100)^T - P)");
 
