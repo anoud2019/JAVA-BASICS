@@ -1,6 +1,6 @@
 package Entities;
 
-public class CircleData  {
+public class CircleData extends BaseData {
     private  double radius;
 
     public double getRadius() {
