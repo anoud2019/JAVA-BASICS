@@ -1,7 +1,5 @@
 package Entities;
 
-import java.util.UUID;
-
 public class BaseData {
     private int id;
     private String description;
