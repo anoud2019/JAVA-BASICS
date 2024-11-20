@@ -1,6 +1,6 @@
 package Entities;
 
-public class InterestData  {
+public class InterestData extends BaseData  {
     private double principal;
     private double rate;
     private double time;
