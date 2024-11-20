@@ -1,9 +1,10 @@
 package Entities;
 
-public class PhysicsData  {
+public class PhysicsData  extends BaseData{
     private double mass;
     private double acceleration;
     private MotionData motionData;
+    private double volume;
 
     public double getMass() {
         return mass;
@@ -27,5 +28,13 @@ public class PhysicsData  {
 
     public void setMotionData(MotionData motionData) {
         this.motionData = motionData;
+    }
+
+    public double getVolume() {
+        return volume;
+    }
+
+    public void setVolume(double volume) {
+        this.volume = volume;
     }
 }
